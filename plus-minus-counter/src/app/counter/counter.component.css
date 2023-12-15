@@ -1,0 +1,67 @@
+
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 20px;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  .counter-container {
+    margin: 20px 0;
+  }
+  
+  .count-label {
+    font-size: 18px;
+    color: #555;
+  }
+  
+  .count {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .button-container {
+    margin-top: 20px;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    margin: 0 5px;
+  }
+  
+  .increment-btn {
+    background-color: #4caf50;
+    color: #fff;
+  }
+  
+  .decrement-btn {
+    background-color: #f44336;
+    color: #fff;
+  }
+  
+  .reset-btn {
+    background-color: #3498db;
+    color: #fff;
+  }
+  
